@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Yanone+Kaffeesatz:wght@600;&display=swap" rel="stylesheet"> 
+    
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Smooch&display=swap" rel="stylesheet">   
+    
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="css.css">
+
+    <title>Curso JavaScript</title>
+  </head>
+  <body>
+    <header class="encabezado_principal">
+      <nav>
+        <a href="#"><img class="logo" src="images/logo.jpg" alt="logo"></a>
+
+        <ul class="enlaces-menu">
+            <li><a href="#" class="secInicio">Inicio</a></li>
+            <li><a href="#" class="secServicio">Servicios</a></li>
+            <li><a href="#" class="secContacto">Contactos</a></li>
+            <li><a href="#" class="secReserva">Reservas</a></li>
+        </ul>
+
+        <button class="ham" type="button">   
+            <span class="br-1"></span>
+            <span class="br-2"></span>
+            <span class="br-3"></span>
+        </button>                       
+    </nav>
+
+    </header>
+
+    <div id="imgprueba">
+      <img src="images/imagenprueba.jpg" alt=""  width="100%">
+
+      
+
+    </div>
+
+      <div id="contenidopracticas">
+        <h1 class="subTitulo">Algunas de las practicas que realizamos</h1>
+        <ul class="li_servicio" >
+          <li class="servicios" id="imagensemi">
+            <p class="titulo_list">Semi-permanente</p>
+            <p class="texto_list">
+              un sistema de duración corta, entorno 2-3 semanas, sin hacer extensión de la uña, es decir, no se puede alargar la uña con este tipo de esmalte. Además, lo puedes encontrar en diferentes colores, ya que es un híbrido de esmalte y gel.
+            </p>
+          </li>
+          <li class="servicios" id="imagenesculpida">
+            <p class="titulo_list">Esculpida</p>
+            <p class="texto_list">
+               uñas esculpidas son aquellas que se hacen a partir de materiales como acrílico y gel que permiten moldear la forma y longitud de cada uña, Este tipo de manicura se hace desde cero
+            </p>
+          </li>
+          <li class="servicios" id="imagendipping">
+            <p class="titulo_list">Dipping</p>
+            <p class="texto_list">
+              un proceso de aplicación de uñas que se utiliza desde hace muchos años. ... Una vez preparada la uña se aplica un Gel en frío y se sumerge el dedo en el acrílico (Este acrílico es el mismo que utilizas cuando aplicas uñas con monómero).
+            </p>
+          </li>
+          <li class="servicios" id="imagenmanicure">
+            <p class="titulo_list">Manicure</p>
+            <p class="texto_list">
+               manicura es un tratamiento de belleza cosmético para las uñas y manos que suele realizarse en casa o en un salón de belleza. En una manicura se cortan o liman los bordes de las uñas, se realizan masajes a las manos y se aplica esmalte de uñas.
+           </p>
+          </li>
+          <li class="servicios" id="imagenkapping">
+            <p class="titulo_list">Kapping</p>
+            <p class="texto_list">
+              Kapping consiste en aplicar una fina capa de acrílico o gel fortificador sobre la uña que actuará como una barrera protectora, este baño en gel kapping no alarga la uña natural sino que acompaña el crecimiento de la misma y dura hasta 20 días.
+            </p>
+          </li>
+        </ul>
+        <div id="reservaturno">
+        <button type="button" class="btn btn-outline-light"><a href="https://prettynails7428.setmore.com/" class="setmorehijo" target="_blank">Solicitar turno para Salón</a></button>
+        </div>
+      </div>
+     
+      <form action=""></form>
+    <h2 id="titulo">Agende su turno</h2>
+       <div class="contenedor_hijo">
+          <div class=form >
+            <input class="form-control form-control-lg" type="text" placeholder="Nombre y apellido" id= "nombre" aria-label="">
+            <input class="form-control form-control-lg" type="text" placeholder="Numero de telefono" id= "telefono"aria-label="">
+            <input class="form-control form-control-lg" type="text" placeholder="Fecha y hora (lun a vie 10/18)" id= "fecha"aria-label="">
+            <input   id=direccion class="form-control form-control-lg" type="text" placeholder="Dirección"  aria-label="">
+            <select  id="desplegable" class="form-select" aria-label="Default select example">
+              <option selected>Seleccione el servicio</option>
+              <option value="Semi-permanente">Semi-permanente</option>
+              <option value="Esculpidas">Esculpidas</option>
+              <option value="Service">Service</option>
+              <option value="Kappin">Kapping</option>
+              <option value="Esmaltado">Esmaltado</option>
+              <option value="depilacion">depilacion</option>
+            </select>
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" value="Manos" id="flexCheckChecked1">
+              <label class="form-check-label" for="flexCheckChecked" >
+                MANOS
+              </label>
+            </div>
+            <div class="form-check" >
+              <input class="form-check-input" type="checkbox" value="Pies" id="flexCheckChecked2">
+              <label class="form-check-label" for="flexCheckChecked" >
+                PIES
+              </label>
+            </div>  
+            <button id="boton" type="submit" class="btn btn-primary">Enviar</button>     
+          </div>
+      </div>
+    </form>
+    <div >
+      <ul id="turnosolicitado">
+      </ul>
+    </div>
+
+    <div id="contactito" >
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.2236154546376!2d-58.48662078511226!3d-34.623788966066606!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcc9ea6821068d%3A0x6e61617baf575c2b!2sGalicia%203731%2C%20C1407FGI%20CABA!5e0!3m2!1ses-419!2sar!4v1638480889897!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" class="map"></iframe>
+      <div class="col-md-4">
+      <p class="ubicacion">Estamos en el barrio de Floresta <br>
+        <a href="mailto:deinyer.acosta@gmial.com?subject=Consulta del servicio nails">E-mail: deinyer.acosta@gmail.com</a>  <br>
+        <a href="https://www.instagram.com/p/CVRy8UqArfX/?utm_medium=share_sheet">Instagram</a>  <br>
+        <a href="https://api.whatsapp.com/send?phone=1123894265&&text=Hola%20Bienvenid@%20a%20Pretty" target="_blank">Whatsapp: 1123894265</a> 
+      </p>
+    </div>
+    </div>
+    <div id="pruebaajax">
+    <button id="botonprueba">  AJAX</button>
+    </div>   
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="ejercicio.js"></script>
+
+    <footer>
+      <div class="pie-de-pagina">
+      <p class="redes">Redes sociales</p>
+      <a href="https://api.whatsapp.com/send?phone=1123894265&&text=Hola%20Bienvenid@%20a%20Pretty" target="_blank" class="what"><img src="./whatsapp.png" width="40px"></a>
+      <a href="https://www.instagram.com/p/CVRy8UqArfX/?utm_medium=share_sheet" target="_blank" class="instagram"><img src="./inst.jpg" width="40px"></a>
+      </div>
+   </footer>
+  
+  </body>
+</html>

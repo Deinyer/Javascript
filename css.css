@@ -1,0 +1,370 @@
+/* estilo menu*/
+
+.encabezado_principal {
+  background-color: #FCC7CD;
+  position: fixed;
+  z-index: 1000;
+  top: 0;
+  width: 100%;
+  box-shadow: 0px 4px 3px rgb(0, 0, 0,.5);
+
+}
+
+.encabezado_princial_menu {
+  margin-left: 75%;
+}
+.encabezado_princial_menu_lista {
+  display: inline-block;
+  list-style-type: none;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#titulo {
+  text-align: center;
+  font-family: "smooch", sans-serif;
+}
+
+.subTitulo{
+  text-align: center;
+  background-color:  #FCC7CD;
+  margin-bottom: 2%;
+  color: black;
+  font-family: "smooch", sans-serif;
+}
+
+.contain {
+  margin-left: 40%;
+}
+
+.contenedor_hijo {
+  background-image: url(images/chorriando.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #FCC7CD;
+  opacity: 80%;
+  width: 800px;
+  height: 400px;
+  margin: auto;
+  position: relative;
+  
+}
+
+.form {
+  border-top: 30px;
+  width: 60%;
+  position:absolute; 
+  top: 15%;
+  left: 20%;
+  
+}
+
+.form-check-label{
+    color: white;
+}
+
+.servicios{
+    
+    border: solid black 3px; 
+    display: inline-block ;
+    list-style-type: none;
+    width: 180px;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#imagenesculpida{
+  background-image: url(images/imagenesculpida.jpg);
+}
+
+#imagendipping{
+
+  background-image: url(images/imagendipping.jpg);
+
+}
+
+#imagenmanicure{
+
+  background-image: url(images/imagenmanicure2.jpg);
+
+}
+
+#imagenkapping{
+
+  background-image: url(images/imagenkapping.jpg);
+
+}
+
+#imagensemi{
+
+  background-image: url(images/imagensemi.jpg);
+}
+
+.li_servicio{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.pie-de-pagina{
+    background-color: #FCC7CD;
+    height: 60px;
+    position: relative;
+    font-family: "smooch", sans-serif;
+    font-size: 25px;
+
+  }
+
+.redes{
+  position: relative;
+  top: 12px;
+  left: 10px;
+}
+
+
+
+.texto_list{
+    color: black;
+    font-family: "Yanone", sans-serif ;
+    
+    
+    
+}
+
+.titulo_list{
+    color: black;
+    font-size: 160%;
+    font-family: "smooch", sans-serif;
+    
+}
+
+#turnosolicitado{
+  padding: 3%;
+  margin: 0%;
+  text-align: center
+}
+.setmorehijo{
+  
+  font-size: x-large;
+  color: black;
+  font-family: "smooch", sans-serif;  
+  text-decoration: none; 
+
+}
+
+.ubicacion{
+  position: relative;
+  left: 690px;
+  bottom: 390px;
+  font-family: "smooch", sans-serif;
+  font-size: 30px;
+}
+
+
+.what{
+  position:absolute;
+  left: 150px;
+  bottom: 8px;
+}
+
+.instagram{
+  position:absolute;
+  left: 200px;
+  bottom: 8px;
+
+}
+
+.map{
+  position: relative;
+  left: 35px;
+}
+
+
+#reservaturno{
+  background-color: #FCC7CD;
+}
+
+.btn btn-outline-light{
+  left: 50%;
+
+}
+#contenidopracticas{
+  text-align: center;
+}
+
+
+
+html {
+  /*font-size: 62.5%;*/
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  background-image: url(images/imagenfondo.jpeg);
+  background-size: cover;
+ 
+}
+
+.logo{
+  width: 165px;
+  height: 95px;  
+  
+}
+
+
+nav{
+    display: flex;
+    align-items:center;
+    justify-content: space-around;
+    min-height:8vh;
+    background-color: #FCC7CD
+}
+
+.ham{
+  display:none;
+  background-color:transparent;
+  cursor: pointer;
+  border:none;
+  margin:0;
+  padding:0;
+  }
+  
+  .ham span{
+      background-color: rgb(0, 0, 0);
+      display:block;
+      height:3px;
+      width: 28px;
+      margin:10px auto;
+      border-radius:2px;    
+  }
+.enlaces-menu{
+    display:flex;
+    padding:0;
+}
+.enlaces-menu li{
+    padding: 0 40px;
+    list-style-type: none;
+    transition: 0.3s;
+    margin-top: 12px;
+}
+
+.enlaces-menu li a{
+    text-decoration:none;
+    font-size: 1.2rem;
+    color:rgb(0, 0, 0);
+    font-weight:400;
+}
+.enlaces-menu li:hover{
+    background-color:rgb(187, 183, 181);
+}
+
+#imgprueba{
+
+  position: relative;
+   
+} 
+
+#prueba2{
+  position: relative;
+  left: 20px;
+  top: 680px;
+  border: 2px solid black;
+}
+
+#pruebaajax{
+  position: relative;
+  left: 30px;
+}
+
+
+
+/* DISPOSITIVOS MOVILES */
+
+@media (max-width:768px) {
+  body{
+    overflow:hidden;
+  }
+    .ham{
+        display:block;
+        cursor:pointer;
+        position: absolute; 
+        top:15px;
+        right:25px;
+        transition: 0.2s  0.1s; 
+
+    }
+ 
+    
+    nav{
+        flex-direction:column;
+        align-items: flex-start;
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+
+    .logo{
+      
+      padding-left:25px;
+      
+    }
+
+   
+    .enlaces-menu{
+      
+        flex-direction:column;
+        justify-content: space-around;
+        align-items:center;
+        height: 92vh;         
+        margin:0;
+        padding:0; 
+        display:none;
+        opacity:0;
+        transition: opacity 5s ease-out;
+        width:100%;
+    
+       
+    }
+    .enlaces-menu li{
+      text-align:center;
+      width:100%;
+      padding:20px;    
+  }
+
+}
+
+/* Animaciones */
+
+@keyframes muestraMenu {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+.enlaces-menu.activado{
+    display:flex; 
+    animation: muestraMenu 350ms ease-in-out both;
+}
+
+.br-1.animado{
+  transform: rotate(-45deg) translate(-10px, 8px);
+}
+
+.br-2.animado{
+  opacity: 0;
+}
+.br-3.animado{
+  transform: rotate(45deg) translate(-10px, -8px);
+}
+
+.ham.girar:hover{
+   transform:rotate(360deg);
+}
+
